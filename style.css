@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all ease-in-out 0.2s;
+}
+
+h1 {
+    font-size: 85px;
+    color: greenyellow;
+}
+
+h2 {
+    font-size: 75px;
+    font-weight: lighter;
+    color: red;
+
+}
+
+h3 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.tree-h3 {
+    font-size: 40px;
+    width: 80%;
+}
+
+.top-a {
+    text-decoration: none;
+    color: white;
+}
+
+.last-a {
+    color: green;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 19px;
+}
+
+nav, .ask, .social-icons {
+    display: flex;
+
+}
+
+.top-bar {
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.last-bar {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.img-box img {
+    padding-left: 75px; 
+    height: 55px;
+}
+
+.ask li {
+    margin-left: 20px;
+}
+
+.social-icons li{
+    margin-right: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    color: red;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    border-bottom: 30px solid rgba(0, 128, 0, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-section button {
+    border: none;
+    border-radius: 50px;
+    background-color: yellow;
+    padding: 5px 35px;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.hero-section button:hover {
+    background-color: green;
+    color: white;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-area p {
+    color: yellow;
+    letter-spacing: 3px;
+}
+
+.social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    z-index: 1;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    /* margin-bottom: 10px; */
+}
+
+.box:hover {
+    transform: scale(85%);
+}
+
+.box-1 {
+    background-color: rgb(0, 60, 255);
+    border-radius: 10px 0 0 0;
+}
+.box-2 {
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(94, 0, 216));
+}
+.box-3 {
+    background-color: rgb(0, 17, 255);
+}
+.box-4 {
+    background-color: rgb(0, 162, 255);
+}
+.box-5 {
+    background-color: rgb(0, 255, 136);
+    border-radius: 0 0 0 10px;
+}
+
+.icons:hover {
+    transform: scale(140%);
+}
+
+.tree-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 100px 0;
+}
+
+.tree-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 105%; */
+    padding-left: 100px;
+}
+
+.tree-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.tree-txt h3 {
+    margin-bottom: 20px;
+}
+
+.tree-txt p {
+    margin-bottom: 20px;
+}
+
+.tree-btn {
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.tree-btn:hover {
+    background-color: crimson;
+}
+
+/* Services */
+
+h4 {
+    font-size: 20px;
+}
+.services {
+    background-image: url('https://panfila.in/wp-content/uploads/2021/02/textured_paper.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    padding: 100px 0;
+}
+
+.service-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-top: 50px;
+}
+
+.service {
+    height: 235px;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+    border-radius: 15px;
+}
+
+.service-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.service-icon h4 {
+    font-size: 30px;
+    color: white;
+}
+
+/*  */
+.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    padding: 50px 0;
+}
+
+.works button:hover {
+    background-color: crimson;
+}
+
+.work-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.work {
+    background-color: gainsboro;
+
+    height: 550px;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.work:first-child {
+    border: 1px solid rgb(216, 219, 0);
+}
+.work:nth-child(2) {
+    border: 1px solid rgb(199, 0, 0);
+}
+.work:last-child {
+    border: 1px solid rgb(40, 173, 0);
+}
+
+.work-last {
+    height: 450px;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.work-img-1 {
+    background-image: url('https://panfila.in/wp-content/uploads/2021/02/pgs_portfolio_dalitsolidarity.org_-1638x2048.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 90%;
+    border-radius: 14px;
+}
+
+.work-img-2 {
+    background-image: url('https://panfila.in/wp-content/uploads/2021/10/pgs_portfolio_stthomasmount.org_-1638x2048.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 90%;
+    border-radius: 14px;
+}
+
+.work-img-3 {
+    background-image: url('https://panfila.in/wp-content/uploads/2023/05/pgs_portfolio_jdax.in_-1638x2048.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 90%;
+    border-radius: 14px;
+}
+
+.work-img-1:hover, .work-img-2:hover, .work-img-3:hover {
+    transform: scale(95%);
+}
+
+.works button {
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+
+.form {
+    background-image: linear-gradient(green, yellow);
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form-area {
+    background-color: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form-input {
+    width: 96.9%;
+    padding: 10px 0 10px 10px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 4px;
+    margin: 5px 0 10px 0;
+}
+
+form {
+    padding: 20px;
+}
+
+form button {
+    background-color: rgb(0, 207, 52);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 20px;
+    margin-left: 180px;
+    font-size: 20px;
+}
+form button:hover {
+    background-color: crimson;
+}
+
+/*     background-image: url('https://panfila.in/wp-content/uploads/2021/02/textured_paper.png'); */
+
+.review {
+    background-color: white;
+    height: 400px;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 10px 10px;
+    border-radius: 20px;
+    padding: 30px 40px 0;
+}
+
+.recognitions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+}
+
+.recog-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recog-img img {
+    width: 15%;
+    margin: 50px 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.upper-txt h5 {
+    color: yellow;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.one-box {
+    width: 80%;
+}
+
+.middle-imgs {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    /* border-bottom: 1px solid white; */
+}
+
+.middle-img-1 {
+    margin-right: 155px;
+}
+
+.middle-img-2 {
+    margin-right: 155px;
+}
